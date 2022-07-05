@@ -1,21 +1,17 @@
 /*
-*File: alphabet ten times
-*Auth: Keku
-*/
+ * File: 1-alphabet
+ */
 #include "main.h"
-
 /**
-*print_alphabet_x10 - display alphabet 10 times, in lowercase.
+* print_alphabet - prints the alphabet in lowercase, followed by a new line.
 */
-void print_alphabet_x10(void)
+void print_alphabet(void)
 {
-int coun = 0;
-char alpha;
+		char alpha;
 
-while (coun++ <= 9)
-{
 for (alpha = 97; alpha <= 122; alpha++)
+{
 _putchar(alpha);
-_putchar('\n');
 }
+_putchar('\n');
 }

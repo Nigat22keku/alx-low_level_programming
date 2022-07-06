@@ -1,7 +1,8 @@
 #include"<main.h"
 
 /**
-*main - Print _putchar
+*_putchar -check if a character is lowercase.
+*@c: The character to be checked.
 *Return: Always 0(Success)
 */
 int _putchar(char c)

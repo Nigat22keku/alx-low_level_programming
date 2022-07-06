@@ -1,14 +1,11 @@
-include "main.h"
+#include "main.h"
 
 /**
- *print_sign -prints the sign of a number.
- *@n:The number of which the sign will be printed.
- *Return:1 and prints + if n is greater than zero.
- *	0 and prints 0 if n is zero.
- *	-1 and prints - if n is less than zero
+ *print_sign -> prints sign based on condition
+ *@n: argument passed
+ *Return: 1, 0 -1
  */
-
-void print_sign(void)
+int print_sign(int n)
 {
 if (n > 0)
 {

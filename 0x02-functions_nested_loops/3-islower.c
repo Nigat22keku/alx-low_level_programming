@@ -1,10 +1,15 @@
 /*
- * this is part three
+ *File: is the function lower case
+ *Auth: Eyoul Shimeles
  */
+
 #include "main.h"
+
 /**
-* @c: a character argument 
-* kek
+*_islower -check if a character is lowercase.
+*@c: The character to be checked.
+* 
+* Return: 1 if character is lowercase, o otherwise.
 */
 int _islower(int c)
 {

@@ -3,6 +3,7 @@
  */
 #include "main.h"
 /**
+* @c: a character argument 
 * kek
 */
 int _islower(int c)

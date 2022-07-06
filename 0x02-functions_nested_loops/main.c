@@ -9,6 +9,6 @@ int main(void)
 {
 	printsomething();
 	void print_alphabet_x10(void);
-	int test_islower(int c);
+	void print_islower(void);
 	return (0);
 }

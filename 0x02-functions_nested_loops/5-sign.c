@@ -8,7 +8,7 @@ include "main.h"
  *	-1 and prints - if n is less than zero
  */
 
-int print_sign(int n)
+void print_sign(void n)
 {
 if (n > 0)
 {

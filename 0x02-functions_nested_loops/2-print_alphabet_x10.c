@@ -1,12 +1,21 @@
+/*
+ *File: alphabet ten times
+ *Auth: Eyoul Shimeles
+ */
 #include "main.h"
+
 /**
-*@c: The character to be checked.
-* Return: 1 if character is lowercase, o otherwise.
-*/
-int _islower(int c)
+ *print_alphabet_x10 - print alphabet 10 times, in lowercase.
+ */
+void print_alphabet_x10(void)
 {
-if (c >= 97 && c <= 122)
-return (1);
-else
-return (0);
+int coun = 0;
+char alpha;
+
+while (coun++ <= 9)
+{
+for (alpha = 97; alpha <= 122; alpha++)
+_putchar(alpha);
+_putchar('\n');
+}
 }

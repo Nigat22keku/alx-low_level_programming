@@ -4,7 +4,7 @@
 *main - Print _putchar
 *Return: Always 0(Success)
 */
-int main(void)
+void printsomething(void)
 {
 _putchar('_');
 _putchar(112);
@@ -15,5 +15,6 @@ _putchar(104);
 _putchar(97);
 _putchar(114);
 _putchar('\n');
+
 return (0);
 }

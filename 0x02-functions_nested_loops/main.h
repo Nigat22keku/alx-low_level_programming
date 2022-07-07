@@ -16,6 +16,6 @@ void print_times_table(int n);
 int main(void);
 int main(void);
 void print_to_98(int n);
-
+nt main(void);
 
 #endif

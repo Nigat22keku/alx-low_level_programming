@@ -29,8 +29,10 @@ c++;
 if (isi == 1)
 {
 break;
+}
 c++;
 }
 ni *= min;
+
 return (ni);
 }

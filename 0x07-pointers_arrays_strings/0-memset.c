@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _memset - function fill the first @n bytes of the memory area pointe
+ * _memset - function fill the first @n bytes of the memory area pointed
  * to by @s with the constant byte @b
  * @n: bytes of the memory area pointed to by @s
  * @s: with the constant byte @b
@@ -11,9 +11,13 @@
 
 char *_memset(char *s, char b, unsigned int n)
 {
-unsigned int a;
+unsigned int i = 0;
 
-for (a = 0; a < n; a++)
-s[a] = b;
+while (i < n)
+{
+s[i] = b;
+i++;
+}
+
 return (s);
 }

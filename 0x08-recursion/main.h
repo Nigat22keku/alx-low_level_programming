@@ -15,4 +15,4 @@ int wildcmp(char *s1, char *s2);
 int _putchar(char c);
 
 
-#endif /*MAIN_H*
+#endif/*MAIN_H*/

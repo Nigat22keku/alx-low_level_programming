@@ -35,8 +35,8 @@ printf("%s", str);
 break;
 }
 j = i + 1;
-while (format[j] && (format[j] == 'c' || format[j] == 'i' ||
-format[j] == 'f' || format[j] == 's'))
+while (format[j] && (format[j] == 'c' || format[j] == 'i'
+|| format[j] == 'f' || format[j] == 's'))
 {
 printf(", ");
 break;

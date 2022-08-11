@@ -2,6 +2,7 @@
 #include "lists.h"
 
 
+
 /**
  * free_list - Frees memory space of a list
  * @head: Pointer to a struct pointer
@@ -11,9 +12,11 @@
 void free_list(list_t *head)
 {
 	list_t *tmp;
+
 	while (head != NULL)
 	{
-		tmp = head
+		tmp = head;
+
 		free(head->str);
 		free(tmp);
 		head = head->next;
